@@ -1,0 +1,51 @@
+{
+  "simple": {
+    "modpack_name": "",
+    "modpack_version": "{mcversion}-1.0",
+    "next_version": "{mcversion}-1.1"
+  },
+  "titles": {
+    "window_title": "Minecraft {mcversion}*",
+    "ending_style": "{titles.window_title} - {ending}"
+  },
+  "pause_menu": {
+    "top_left": {
+      "text": "",
+      "color": "808080"
+    },
+    "top_right": {
+      "text": "",
+      "color": "808080"
+    },
+    "bottom_left": {
+      "text": "",
+      "color": "808080"
+    },
+    "bottom_right": {
+      "text": "",
+      "color": "808080"
+    }
+  },
+  "title_screen": {
+    "top_left": {
+      "text": ""
+    },
+    "top_right": {
+      "text": ""
+    },
+    "bottom_left": {
+      "text": ""
+    },
+    "bottom_right": {
+      "text": ""
+    }
+  },
+  "modpack_version_checker": {
+    "new_version_msg": "A new version of {simple.modpack_name} is available!",
+    "url_to_check": "https://modrinth.com/modpack/my-modpack/versions",
+    "download_website": "{modpack_version_checker.url_to_check}",
+    "text_to_look_for": "{simple.modpack_name} {simple.next_version}",
+    "run_check": false,
+    "new_version": "{simple.next_version}"
+  }
+}
